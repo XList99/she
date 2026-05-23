@@ -1,42 +1,45 @@
-# 🐚 Shell File Overview
+# 🛠️ Advanced PHP Execution Environment
 
-This repository contains several PHP-based shell files intended for personal research, system testing, and educational use. Each file serves a specific purpose, as described below.
+**shxl.php** is not just another shell. It is a total rewrite designed to bypass everything.
 
-> ⚠️ **Important Note:** Some files are private and not intended for public distribution. This project is provided as-is for learning and ethical research purposes only.
-
----
-
-## 🔒 Private Files (Not for Public Use)
-
-- **`she.php`**  
-  Main private shell for internal use only.
-
-- **`xshe.php`**  
-  Experimental development of `she.php`. Still private and not meant for public access.
+Unlike standard shells (Alfa, r57) that rely on basic functions and get blocked easily, this engine manipulates the server environment to force execution, remain invisible, and ignore restrictions.
 
 ---
 
-## 🧪 Public Shell Files (No Password)
+## 🚀 The Engine
 
-- **`xl.php`**  
-  A new shell version with no password protection. Shared for public exploration and open testing.
+**shxl.php** is the public flagship: **No Password, Full Access**.
 
-- **`shxl.php`**  
-  A public-ready version of `she.php`, simplified for ease of use and open access without authentication.
+Its power comes from deep code manipulation that neutralizes security barriers:
+
+| Feature | Description |
+| 🔓 **WAF & ModSecurity Bypass** | Spoofs request headers to mimic legitimate internal traffic, slipping past firewalls undetected. |
+| 👻 **Zero Footprint** | Runs in complete silence. No logs, no errors, no warnings. Invisible to admins and auditing tools. |
+| ⚡ **Unrestricted Execution** | Overrides server limits for time and memory. Runs indefinitely and handles heavy tasks without crashing. |
+| 💨 **Real-Time Response** | Direct output flushing ensures instant data flow, making it faster and more responsive than traditional shells. |
 
 ---
 
-## ⚙️ Usage Notes
+## 📂 Builds
 
-- `shxl.php` and `xl.php` are distributed as open shells without built-in authentication. Users are free to add password protection or modify them as needed.
-- These files are designed for flexibility and compatibility in various testing environments.
+### 🔒 she.php
+**Private Build.**  
+Author's personal configuration. Not for distribution.
+
+### 🧪 xshe.php
+**Beta / Experimental.**  
+- **Password:** `?Xl99`  
+- **Feature:** 403 Camouflage Interface. The login screen mimics a standard `403 Forbidden` error. The password input is hidden on the right side of the page.
+
+### 🌐 shxl.php
+**Public Release.**  
+- **Password:** `None` (Open Access)  
+- **Status:** Stable, Bypass-Ready, High Performance.
 
 ---
 
 ## 🛡️ Disclaimer
 
-This repository is provided **strictly for educational, ethical, and research purposes**.  
-Any form of misuse or illegal activity is the sole responsibility of the user.
+> This repository is provided for authorized security testing, educational research, and server administration only.
 
-**The author does not take responsibility for any actions taken using these files.**  
-By using the contents of this repository, you acknowledge full responsibility for your actions and agree to use them at your own risk.
+The bypass techniques used are powerful and can bypass security controls. The author is not responsible for any misuse or damage caused by these tools. **Use only on systems you own or have explicit permission to test.**
